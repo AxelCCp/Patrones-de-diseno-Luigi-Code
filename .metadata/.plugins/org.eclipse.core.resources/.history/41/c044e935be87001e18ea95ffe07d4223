@@ -1,0 +1,5 @@
+package A9_Decorator.decorator;
+
+public class ElfoEnemyDecorator {
+
+}

@@ -1,0 +1,27 @@
+package B1_FlyWeight.assets;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import B1_FlyWeight.Animation;
+import B1_FlyWeight.Sound;
+import B1_FlyWeight.Texture;
+
+public class Prefab {
+	
+	public Prefab(String name, List<Animation> animations, List<Texture> textures, List<Sound> sounds) {
+		super();
+		this.name = name;
+		this.animations = animations;
+		this.textures = textures;
+		this.sounds = sounds;
+	}
+	
+	private static int id;
+	private String name;
+	private List<Animation>animations = new ArrayList<>();
+	private List<Texture>textures = new ArrayList<>();
+	private List<Sound>sounds = new ArrayList<>();
+	
+
+}

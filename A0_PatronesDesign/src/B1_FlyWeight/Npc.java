@@ -1,0 +1,32 @@
+package B1_FlyWeight;
+
+import B1_FlyWeight.assets.Prefab;
+
+public class Npc {
+	
+	public Npc(Prefab prefab) {
+		this.name = "NPC" + id;
+		this.health = MAX_HEALTH;
+		this.coordinates = Coordinates.getCoordinates();
+		this.prefab = prefab;
+		id++;
+	}
+	
+	public void showNpc() {
+		System.out.println("name: " + name);
+		System.out.println("health: " + health);
+		System.out.println(coordinates);
+		System.out.println("-----prefab------ ");
+		System.out.println(prefab);
+	}
+	
+	private static int id = 1;
+	private String name;
+	private static final int MAX_HEALTH = 100;	
+	private int health;
+	private Coordinates coordinates;
+	private Prefab prefab;
+	
+	
+
+}

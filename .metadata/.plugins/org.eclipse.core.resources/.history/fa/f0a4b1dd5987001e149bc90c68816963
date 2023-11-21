@@ -1,0 +1,8 @@
+package A7_Bridge.figther;
+
+public interface Figther {
+	
+	void attack();
+	void protect();
+
+}

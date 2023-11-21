@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Factory.Enemy"/>
+    <fullyQualifiedTypeName name="Factory.Warrior"/>
+    <fullyQualifiedTypeName name="Factory.EnemyFactory"/>
+    <fullyQualifiedTypeName name="FactoryMethod.Warrior"/>
+    <fullyQualifiedTypeName name="FactoryMethod.EnemyFactory"/>
+    <fullyQualifiedTypeName name="FactoryMethod.Mago"/>
+    <fullyQualifiedTypeName name="FactoryMethod.Enemy"/>
+    <fullyQualifiedTypeName name="FactoryMethod.WarriorFactory"/>
+    <fullyQualifiedTypeName name="FactoryMethod.MagoFactory"/>
+    <fullyQualifiedTypeName name="A2_AbstractFactory.Enemy"/>
+    <fullyQualifiedTypeName name="A2_AbstractFactory.Armor"/>
+    <fullyQualifiedTypeName name="A2_AbstractFactory.Weapon"/>
+    <fullyQualifiedTypeName name="A2_AbstractFactory.enemy.Warrior"/>
+    <fullyQualifiedTypeName name="A2_AbstractFactory.armor.HeavyArmor"/>
+    <fullyQualifiedTypeName name="A2_AbstractFactory.weapon.Hacha"/>
+    <fullyQualifiedTypeName name="A2_AbstractFactory.enemy.Mago"/>
+    <fullyQualifiedTypeName name="A2_AbstractFactory.armor.Tunica"/>
+    <fullyQualifiedTypeName name="A2_AbstractFactory.weapon.BastonDeMago"/>
+    <fullyQualifiedTypeName name="A2_AbstractFactory.factory.EnemyAbstractFactory"/>
+    <fullyQualifiedTypeName name="A2_AbstractFactory.factory.WarriorFactory"/>
+    <fullyQualifiedTypeName name="A2_AbstractFactory.enemy.Enemy"/>
+    <fullyQualifiedTypeName name="A2_AbstractFactory.weapon.Weapon"/>
+    <fullyQualifiedTypeName name="A2_AbstractFactory.armor.Armor"/>
+    <fullyQualifiedTypeName name="A2_AbstractFactory.factory.MagoFactory"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="A5_SingletonMultiHilo.TestSingleton.RunPepe"/>
+    <fullyQualifiedTypeName name="Adapter.Enemy"/>
+    <fullyQualifiedTypeName name="A6_Adapter.Enemy"/>
+    <fullyQualifiedTypeName name="A6_Adapter.Zombie"/>
+    <fullyQualifiedTypeName name="A6_Adapter.ZombieAdapter"/>
+    <fullyQualifiedTypeName name="A7_Bridge.Enemy"/>
+    <fullyQualifiedTypeName name="A7_Bridge.figther.Figther"/>
+    <fullyQualifiedTypeName name="A7_Bridge.figther.Fighter"/>
+    <fullyQualifiedTypeName name="A7_Bridge.enemy.Warrior"/>
+    <fullyQualifiedTypeName name="A7_Bridge.enemy.MagoFighterImpl"/>
+    <fullyQualifiedTypeName name="A7_Bridge.enemy.Mago"/>
+    <fullyQualifiedTypeName name="A7_Bridge.figther.WarriorFighterImpl"/>
+</qualifiedTypeNameHistroy>

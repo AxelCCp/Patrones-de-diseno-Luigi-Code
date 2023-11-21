@@ -1,0 +1,51 @@
+package A7_Bridge.enemy;
+
+import A7_Bridge.figther.Fighter;
+import A7_Bridge.figther.WarriorFighterImpl;
+
+public class Warrior extends Enemy {
+
+	public Warrior() {
+		// TODO Auto-generated constructor stub
+		setFighter(new WarriorFighterImpl());
+	}
+	
+	@Override
+	public int getHealth() {
+		// TODO Auto-generated method stub
+		return super.getHealth();
+	}
+
+	@Override
+	public void setHealth(int health) {
+		// TODO Auto-generated method stub
+		super.setHealth(health);
+	}
+
+	@Override
+	public Fighter getFighter() {
+		// TODO Auto-generated method stub
+		return super.getFighter();
+	}
+
+	@Override
+	public void setFighter(Fighter fighter) {
+		// TODO Auto-generated method stub
+		super.setFighter(fighter);
+	}
+
+	public void attack() {
+		// TODO Auto-generated method stub
+		System.out.println("warrior: ");
+		getFighter().attack();
+	}
+
+	public void protect() {
+		// TODO Auto-generated method stub
+		System.out.println("warrior: ");
+		getFighter().protect();
+	}
+
+	
+	
+}

@@ -1,0 +1,13 @@
+package A2_AbstractFactory.armor;
+
+import A2_AbstractFactory.Armor;
+
+public class Tunica implements Armor{
+
+	@Override
+	public void protect() {
+		// TODO Auto-generated method stub
+		System.out.println("tunica protect!!");
+	}
+
+}

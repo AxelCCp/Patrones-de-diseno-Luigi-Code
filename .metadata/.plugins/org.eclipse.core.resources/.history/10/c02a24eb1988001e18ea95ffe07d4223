@@ -1,0 +1,12 @@
+package B2_Proxy;
+
+public class TestProxy {
+	
+	public static void main(String[] args) {
+		
+		GameImpl gameImpl = new GameImpl();
+		gameImpl.newGame(null);
+		
+	}
+
+}

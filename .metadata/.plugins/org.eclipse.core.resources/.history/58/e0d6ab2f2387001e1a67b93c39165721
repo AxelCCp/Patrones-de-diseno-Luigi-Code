@@ -1,0 +1,28 @@
+package A3_Builder;
+
+public class Enemy {
+
+	
+	public Enemy() {
+	}
+	
+	
+	public Enemy(int age) {
+		this.age = age;
+	}
+
+	
+	public Enemy(String name) {
+		this.name = name;
+	}
+
+
+	public Enemy(int age, String name) {
+		this.age = age;
+		this.name = name;
+	}
+
+
+	private int age;
+	private String name;
+}

@@ -1,0 +1,15 @@
+package A7_Bridge;
+
+public abstract class Enemy {
+	
+	public int getHealth() {
+		return health;
+	}
+
+	public void setHealth(int health) {
+		this.health = health;
+	}
+
+	protected int health;
+	
+}

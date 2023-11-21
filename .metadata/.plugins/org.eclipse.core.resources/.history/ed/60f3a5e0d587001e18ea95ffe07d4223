@@ -1,0 +1,23 @@
+package B0_Facade;
+
+public class FacadeSmithy {
+	
+	
+	public void  work(String name, boolean make) {
+		if(make) {
+			Forge forge = new Forge();
+			forge.work(name);
+			if(Recetas.getRecipes(name, make)) {
+				if(!forge.search(name)) {
+					return;
+				}
+				forge.remove(name);
+				forge.working(name);
+				System.out.println("The " + name + " havebeen created!!!");
+			}
+		} else {
+			
+		}
+	}
+
+}

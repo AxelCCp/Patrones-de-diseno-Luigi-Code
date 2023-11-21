@@ -1,0 +1,14 @@
+package A7_Bridge;
+
+import A7_Bridge.enemy.Warrior;
+
+public class TestBridge {
+
+	public static void main(String[] args) {
+		
+		System.out.println("------------------------WARRIOR------------------------");
+		Warrior warrior = new Warrior();
+		warrior.attack();
+		warrior.protect();
+	}
+}

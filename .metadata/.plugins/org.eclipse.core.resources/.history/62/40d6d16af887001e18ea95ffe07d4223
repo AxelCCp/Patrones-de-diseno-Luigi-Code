@@ -1,0 +1,19 @@
+package B1_FlyWeight;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Npc {
+	
+	private static final int MAX_HEALTH = 100;
+	
+	private static int id;
+	private String name;
+	private int health;
+	private Coordinates coodinates;
+	
+	private List<Animation>animations = new ArrayList<>();
+	private List<Texture>textures = new ArrayList<>();
+	private List<Sound>sounds = new ArrayList<>();
+
+}

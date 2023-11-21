@@ -1,0 +1,6 @@
+package A2_AbstractFactory;
+
+public interface Enemy {
+
+	void attack();
+}

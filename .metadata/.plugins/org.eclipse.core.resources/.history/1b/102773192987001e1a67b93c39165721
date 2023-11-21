@@ -1,0 +1,8 @@
+package A4_Prototype;
+
+public class Enemy {
+	
+	private int health;
+	private int damage;
+
+}

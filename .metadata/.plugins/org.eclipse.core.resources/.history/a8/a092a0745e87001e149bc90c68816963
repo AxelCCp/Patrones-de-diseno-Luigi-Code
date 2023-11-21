@@ -1,0 +1,18 @@
+package A7_Bridge;
+
+import A7_Bridge.enemy.Warrior;
+import A7_Bridge.figther.WarriorFighterImpl;
+
+public class TestBridge {
+
+	public static void main(String[] args) {
+		
+		System.out.println("------------------------WARRIOR------------------------");
+		Warrior warrior = new Warrior();
+		warrior.attack();
+		warrior.protect();
+		warrior.setFighter(new MageFighterImpl());
+		warrior.attack();
+		warrior.attack();
+	}
+}

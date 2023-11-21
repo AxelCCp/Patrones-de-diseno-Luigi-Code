@@ -1,0 +1,21 @@
+package A7_Bridge.enemy;
+
+public class Warrior extends Enemy {
+
+	@Override
+	public int getHealth() {
+		// TODO Auto-generated method stub
+		return super.getHealth();
+	}
+
+	@Override
+	public void setHealth(int health) {
+		// TODO Auto-generated method stub
+		super.setHealth(health);
+	}
+
+	
+
+	
+	
+}

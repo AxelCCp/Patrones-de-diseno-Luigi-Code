@@ -1,0 +1,21 @@
+package A7_Bridge.enemy;
+
+import A7_Bridge.figther.Figther;
+
+public class Mago extends Enemy implements Figther{
+
+	@Override
+	public int getHealth() {
+		// TODO Auto-generated method stub
+		return super.getHealth();
+	}
+
+	@Override
+	public void setHealth(int health) {
+		// TODO Auto-generated method stub
+		super.setHealth(health);
+	}
+
+	
+	
+}

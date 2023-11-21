@@ -1,0 +1,25 @@
+package A6_Adapter;
+
+public class ZombieAdapter implements Enemy{
+
+	public ZombieAdapter() {
+		// TODO Auto-generated constructor stub
+		this.zombie = new Zombie();
+	}
+	
+	@Override
+	public void attack() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void damage() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	private Zombie zombie;
+
+}

@@ -1,0 +1,12 @@
+package A3_Builder;
+
+public class TestBuilder {
+	
+	public static void main(String[] args) {
+		
+		
+		Enemy enemy = Enemy.builder().name("pepe").type("Mago").build();
+		
+	}
+
+}

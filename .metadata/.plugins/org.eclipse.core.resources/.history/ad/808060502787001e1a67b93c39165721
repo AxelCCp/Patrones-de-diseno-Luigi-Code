@@ -1,0 +1,54 @@
+package A3_Builder;
+
+public class EnemyBuilder {
+
+	
+	private String nombre;
+	private String type;
+	private int health;
+	private int damage;
+	private int endurance;
+	
+	
+	public String getNombre() {
+		return nombre;
+	}
+	public String getType() {
+		return type;
+	}
+	public int getHealth() {
+		return health;
+	}
+	public int getDamage() {
+		return damage;
+	}
+	public int getEndurance() {
+		return endurance;
+	}
+	
+	
+	public EnemyBuilder nombre(String nombre) {
+		this.nombre = nombre;
+		return this;
+	}
+	public EnemyBuilder type(String type) {
+		this.type = type;
+		return this;
+	}
+	public EnemyBuilder health(int health) {
+		this.health = health;
+		return this;
+	}
+	public EnemyBuilder damage(int damage) {
+		this.damage = damage;
+		return this;
+	}
+	public EnemyBuilder endurance(int endurance) {
+		this.endurance = endurance;
+		return this;
+	}
+
+	
+	
+	
+}

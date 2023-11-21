@@ -1,0 +1,13 @@
+package A2_AbstractFactory;
+
+import A2_AbstractFactory.enemy.Enemy;
+
+public class Warrior implements Enemy{
+
+	@Override
+	public void attack() {
+		// TODO Auto-generated method stub
+		System.out.println("warrior attack!!!");
+	}
+
+}

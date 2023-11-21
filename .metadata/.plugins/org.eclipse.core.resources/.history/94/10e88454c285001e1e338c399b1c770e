@@ -1,0 +1,13 @@
+package A2_AbstractFactory;
+
+import A2_AbstractFactory.weapon.Weapon;
+
+public class BastonDeMago implements Weapon{
+
+	@Override
+	public void damage() {
+		// TODO Auto-generated method stub
+		System.out.println("Baston de mago damage!!!");
+	}
+
+}

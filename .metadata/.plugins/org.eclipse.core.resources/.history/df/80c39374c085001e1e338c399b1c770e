@@ -1,0 +1,5 @@
+package A2_AbstractFactory;
+
+public interface Enemy {
+
+}

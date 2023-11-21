@@ -1,0 +1,18 @@
+package A5_Singleton;
+
+public class Player {
+	
+	private Player(String name) {
+		this.name = name;
+	}
+	
+	public static Player getPlayer(String name) {
+		if(player == null)
+			player = new Player(name);
+		return player;
+	}
+	
+	private String name;
+	private static Player player;
+
+}

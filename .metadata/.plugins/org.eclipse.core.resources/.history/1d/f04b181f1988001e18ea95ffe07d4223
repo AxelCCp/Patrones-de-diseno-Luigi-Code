@@ -1,0 +1,20 @@
+package B2_Proxy;
+
+public class ProxyGameImpl implements Game{
+
+	private Stats stats;
+	private GameImpl gameImpl;
+	
+	@Override
+	public void save(String name) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Stats load(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

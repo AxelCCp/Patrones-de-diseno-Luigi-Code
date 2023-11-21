@@ -1,0 +1,16 @@
+package B2_Proxy;
+
+public class TestProxy {
+	
+	public static void main(String[] args) {
+		
+		GameImpl gameImpl = new GameImpl();
+		gameImpl.newGame("player1");
+		ProxyGameImpl proxyGame = new ProxyGameImpl(gameImpl);
+		proxyGame.load("player1");
+		proxyGame.getStats().setKills(10);
+		proxyGame.getStats().setDeaths(2);
+		proxyGame.save("player1");
+	}
+
+}
