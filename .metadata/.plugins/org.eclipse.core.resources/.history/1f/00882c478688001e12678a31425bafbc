@@ -1,0 +1,7 @@
+package B3_ChainOfResponsability;
+
+public enum TypePlayer {
+	
+	WARRIOR, MAGO, VAMP, ASSASIN
+
+}

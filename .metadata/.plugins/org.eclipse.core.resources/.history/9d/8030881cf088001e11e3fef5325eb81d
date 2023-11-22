@@ -1,0 +1,78 @@
+package B5_Iterator;
+
+import java.util.Iterator;
+
+public class ListNode<T> implements Iterator<Node<T>>{
+	
+	public ListNode() {
+		this.size = this.position = 0;
+	}
+	
+	public ListNode(Node<T> node) {
+		this.head = node;
+		this.tail = node;
+		this.position = 0;
+		this.size = 1;
+	}
+	
+	public boolean isEmpty() {
+		return size == 0;
+	}
+	
+	public void addEmpty(T value) {
+		Node<T>node = new Node<>(value);
+		this.head = node;
+		this.tail = node;
+		this.size = 1;
+	}
+	
+	public void add(T value) {
+		
+		if(isEmpty()) {
+			addEmpty(value);
+			return;
+		}
+		
+		Node<T>node = new  Node<>(value);
+		
+		node.setNext(head);
+		head = node;
+		size++;
+	}
+	
+	
+	private Node<T>get(int pos){
+		if(pos > size || pos < 0 || isEmpty()) {
+			return null;
+		}
+		
+		int count = 0;
+		Node<T>node = head;
+		while(count < pos) {
+			node = node.getNext();
+			count++;
+		}
+		return node;
+		
+	}
+	
+	
+	@Override
+	public boolean hasNext() {
+		// TODO Auto-generated method stub
+		if(position < size) {
+			return true;
+		}
+		return false;
+	}
+
+	@Override
+	public Node<T> next() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	private Node<T> head, tail;
+	private int size, position;
+	
+}

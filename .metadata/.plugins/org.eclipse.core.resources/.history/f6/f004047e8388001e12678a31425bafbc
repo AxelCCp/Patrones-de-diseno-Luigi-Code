@@ -1,0 +1,22 @@
+package B3_ChainOfResponsability;
+
+public class IceAttack extends ElementaryAttack{
+
+	
+	public IceAttack() {
+	}
+
+	public IceAttack(ElementaryAttack next) {
+		super(next);
+	}
+
+	@Override
+	public void attack(Player player) {
+		if(player.getTypeplayer().equals(TypePlayer.WARRIOR)) {
+			
+		}
+	}
+	
+	
+
+}

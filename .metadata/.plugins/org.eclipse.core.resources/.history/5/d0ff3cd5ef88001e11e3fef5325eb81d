@@ -1,0 +1,42 @@
+package B5_Iterator;
+
+public class ListNode<T> {
+	
+	public ListNode() {
+		this.size = 0;
+	}
+	
+	public ListNode(Node<T> node) {
+		this.head = node;
+		this.tail = node;
+		this.size = 1;
+	}
+	
+	public boolean isEmpty() {
+		return size == 0;
+	}
+	
+	public void addEmpty(T value) {
+		Node<T>node = new Node<>(value);
+		this.head = node;
+		this.tail = node;
+		this.size = 1;
+	}
+	
+	public void add(T value) {
+		
+		if(isEmpty()) {
+			addEmpty(value);
+			return;
+		}
+		
+		Node<T>node = new  Node<>(value);
+		
+		node.setNext(head);
+		head = node;
+		size++;
+	}
+	
+	private Node<T> head, tail;
+	private int size;
+}

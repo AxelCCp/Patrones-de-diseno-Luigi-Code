@@ -1,0 +1,8 @@
+package B3_ChainOfResponsability;
+
+public class TypePlayer {
+	
+	
+	WARRIOR, MAGO, VAMP
+
+}

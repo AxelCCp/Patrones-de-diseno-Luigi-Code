@@ -1,0 +1,19 @@
+package B3_ChainOfResponsability;
+
+public class Player {
+	
+	
+	private TypePlayer typeplayer;
+
+	
+	public TypePlayer getTypeplayer() {
+		return typeplayer;
+	}
+
+	public void setTypeplayer(TypePlayer typeplayer) {
+		this.typeplayer = typeplayer;
+	}
+	
+	
+
+}

@@ -1,0 +1,5 @@
+package B4_Command;
+
+public class MoveFromCommand {
+
+}

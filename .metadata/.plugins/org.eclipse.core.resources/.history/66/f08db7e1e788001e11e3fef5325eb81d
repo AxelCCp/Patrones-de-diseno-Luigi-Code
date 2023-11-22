@@ -1,0 +1,11 @@
+package B4_Command;
+
+import java.util.HashMap;
+
+public class MovementInvoker {
+
+	private HashMap<Character, Command> commands = new HashMap<>();
+	
+	private Player player;
+	
+}
