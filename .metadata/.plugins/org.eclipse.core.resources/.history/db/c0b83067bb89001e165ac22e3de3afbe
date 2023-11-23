@@ -1,0 +1,7 @@
+package C2_Visitor;
+
+public interface Visitable {
+
+	void acecept(Visitor visitor);
+	
+}

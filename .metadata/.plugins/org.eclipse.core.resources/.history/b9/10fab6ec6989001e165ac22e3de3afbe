@@ -1,0 +1,48 @@
+package B6_Mediator_v2;
+
+
+public class Enemy implements Combat{
+
+	public Enemy(String name, Mediator mediator) {
+		// TODO Auto-generated constructor stub
+		this.name = name;
+		this.mediator = mediator;
+		mediator.add(this);
+	}
+	
+
+	public String getName() {
+		return name;
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "Enemy [name=" + name + "]";
+	}
+
+	
+	@Override
+	public void send() {
+		// TODO Auto-generated method stub
+		System.out.println("Sending message from " + name);
+		mediator.send(this);
+	}
+
+
+	@Override
+	public void receive(Combat combat) {
+		// TODO Auto-generated method stub
+		System.out.println("Message received from " + ((Enemy)combat).getName()) +  " : " + name + "attack mode activated!!!";
+		
+	}
+
+
+	private String name;
+	private Mediator mediator;
+
+
+
+	
+	
+}

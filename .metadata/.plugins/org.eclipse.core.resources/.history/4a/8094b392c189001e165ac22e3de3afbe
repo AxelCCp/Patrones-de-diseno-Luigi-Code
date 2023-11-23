@@ -1,0 +1,25 @@
+package C3_Interpreter;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Interpreter {
+
+	public Interpreter(String str) {
+		for(String token : str.split(" ")) {
+			if(token.equals("+")) {
+				list.add(new PlusExpression());
+			} else if(token.equals("-")) {
+				list.add(new MinusExpression());
+			} else if (token.equals("*")) {
+				list.add(new MultExpression());
+			} else {
+				list.add(new DivExpression());
+			}
+		}
+			
+	}
+	
+	private List<Expression>list = new ArrayList<>();
+	
+}

@@ -1,0 +1,13 @@
+package B8_Observer;
+
+public abstract class Enemy {
+
+	
+	public Enemy(String name) {
+		this.name = name;
+	}
+	
+	private String name;
+	private boolean active;
+	
+}

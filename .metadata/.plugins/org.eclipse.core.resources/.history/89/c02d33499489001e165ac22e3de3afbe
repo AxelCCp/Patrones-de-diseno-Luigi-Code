@@ -1,0 +1,26 @@
+package B9_State;
+
+public class Mission {
+
+	public Mission(String name) {
+		this.name = name;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public MissionState getState() {
+		return state;
+	}
+	public void setState(MissionState state) {
+		this.state = state;
+	}
+	
+	
+	private String name;
+	private MissionState state;
+	
+}

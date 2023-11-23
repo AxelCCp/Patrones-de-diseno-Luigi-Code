@@ -1,0 +1,12 @@
+package B8_Observer;
+
+public class TestObservable {
+
+	public static void main(String[] args) {
+		
+		Warrior warrior1 = new Warrior("warrior 1");
+		Warrior warrior2 = new Warrior("warrior 2");
+		Mago mago1 = new  Mago("mago 1");
+		Mago mago2 = new  Mago("mago 2");
+	}
+}

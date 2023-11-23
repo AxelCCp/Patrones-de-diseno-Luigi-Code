@@ -1,0 +1,8 @@
+package B9_State;
+
+public class Mission {
+
+	private String name;
+	private MissionState state;
+	
+}

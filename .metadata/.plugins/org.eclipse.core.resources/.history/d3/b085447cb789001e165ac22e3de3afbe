@@ -1,0 +1,11 @@
+package C1_TemplateMethod;
+
+public class TestTemplateMethod {
+	
+	public static void main(String[] args) {
+		
+		Template templateA = new ConcreteTemplateA();
+		templateA.template();
+	}
+
+}

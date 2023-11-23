@@ -2,7 +2,7 @@ package B5_Iterator_v2;
 
 import java.util.Iterator;
 
-public class ListNode<T> implements Iterator<Node<T>>{
+public class ListNode<T>{
 	
 	public ListNode() {
 		this.size = this.position = 0;
@@ -73,22 +73,29 @@ public class ListNode<T> implements Iterator<Node<T>>{
 	}
 	
 	
-	@Override
-	public boolean hasNext() {
-		// TODO Auto-generated method stub
-		if(position < size) {
-			return true;
+	public Iterator<Node<T>> iterator = new  Iterator<Node<T>>() {
+	
+		@Override
+		public boolean hasNext() {
+			// TODO Auto-generated method stub
+			if(position < size) {
+				return true;
+			}
+			return false;
 		}
-		return false;
-	}
 
-	@Override
-	public Node<T> next() {
-		// TODO Auto-generated method stub
-		Node<T>next = get(position);
-		position++;
-		return next;
-	}
+		@Override
+		public Node<T> next() {
+			// TODO Auto-generated method stub
+			Node<T>next = get(position);
+			position++;
+			return next;
+		}
+	
+	};
+	
+	
+	
 	
 	private Node<T> head, tail;
 	private int size, position;

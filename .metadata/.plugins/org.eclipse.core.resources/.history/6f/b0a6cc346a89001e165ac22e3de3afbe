@@ -1,0 +1,9 @@
+package B6_Mediator_v2;
+
+public class TestMediator {
+
+	public static void main(String[] args) {
+
+	
+	}
+}

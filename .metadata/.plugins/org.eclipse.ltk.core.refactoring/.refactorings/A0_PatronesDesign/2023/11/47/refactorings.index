@@ -16,3 +16,7 @@
 1700622863458	Rename type 'MoveFromCommand'
 1700627839995	Rename package 'B5_Iterator'
 1700627870689	Copy package
+1700678264005	Copy package
+1700678282399	Rename package 'B6_Mediator'
+1700712857050	Rename type 'ConcreteTemplate'
+1700713176289	Delete elements

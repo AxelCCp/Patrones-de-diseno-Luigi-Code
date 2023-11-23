@@ -1,0 +1,21 @@
+package B8_Observer;
+
+public class Warrior extends Enemy{
+
+	public Warrior(String name) {
+		super(name);
+		setActive(false);
+	}
+
+	@Override
+	public void attack() {
+		System.out.println(getName() + " warrior on attack!!");
+	}
+
+	@Override
+	public void activate() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

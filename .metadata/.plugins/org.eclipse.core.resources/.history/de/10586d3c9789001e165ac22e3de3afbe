@@ -1,0 +1,5 @@
+package C0_Strategy;
+
+public interface AttackStrategy {
+
+}

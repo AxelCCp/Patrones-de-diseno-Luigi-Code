@@ -1,0 +1,12 @@
+package C0_Strategy;
+
+public class Enemy {
+	
+	private String name;
+	private AttackStrategy attackStrategy;
+	
+	private void attack(String type) {
+		attackStrategy.attack();
+	}
+
+}

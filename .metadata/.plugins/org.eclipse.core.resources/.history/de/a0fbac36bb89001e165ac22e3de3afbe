@@ -1,0 +1,24 @@
+package C2_Visitor;
+
+public class Assassin {
+
+	public Warrior(String name) {
+		this.name = name;
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	
+	public void powerAttack() {
+		System.out.println(this.getName() + " power attack!!!");
+	}
+
+	private String name;
+	
+}

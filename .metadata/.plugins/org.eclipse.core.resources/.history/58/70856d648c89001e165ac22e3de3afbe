@@ -1,0 +1,24 @@
+package B8_Observer;
+
+public class Vigilante extends Enemy{
+
+	public Vigilante(String name) {
+		super(name);
+		setActive(true);
+	}
+
+	@Override
+	public void attack() {
+		
+		
+	}
+
+	@Override
+	public void activate() {
+		
+		
+	}
+
+	
+	
+}

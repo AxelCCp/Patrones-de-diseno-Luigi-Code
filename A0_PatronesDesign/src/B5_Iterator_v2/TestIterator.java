@@ -1,5 +1,7 @@
 package B5_Iterator_v2;
 
+import java.util.Iterator;
+
 /*import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
@@ -34,8 +36,10 @@ public class TestIterator {
 		ListNode<String>listNode = new ListNode<String>(new Node<>("hola"));
 		listNode.addEnd("que");
 		listNode.addEnd("tal");
-		while(listNode.hasNext()) {
-			System.out.println(listNode.next());
+		Iterator<Node<String>>iterator = listNode.iterator;
+		
+		while(iterator.hasNext()) {
+			System.out.println(iterator.next());
 		}
 	}
 	

@@ -1,0 +1,36 @@
+package B6_Mediator;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Enemy {
+
+	public Enemy(String name) {
+		// TODO Auto-generated constructor stub
+		this.name = name;
+	}
+	
+	
+	public void add(Enemy enemy) {
+		enemies.add(enemy);
+	}
+	
+	
+	
+	public String getName() {
+		return name;
+	}
+
+
+
+	@Override
+	public String toString() {
+		return "Enemy [name=" + name + "]";
+	}
+
+
+
+	private String name;
+	private List<Enemy> enemies = new ArrayList<>();
+	
+}

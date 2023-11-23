@@ -1,0 +1,10 @@
+package C1_TemplateMethod;
+
+public class TestTemplateMethod {
+	
+	public static void main(String[] args) {
+		
+		EnemyTemplate warrior = new Warrior();
+	}
+
+}

@@ -1,0 +1,18 @@
+package C1_TemplateMethod;
+
+public abstract class Template {
+
+	public abstract void step1();
+	
+	public abstract void step2();
+	
+	public abstract void stepN();
+	
+	public final void template() {    					//SE PONE FINAL PARA Q NINGUNA CLASE HIJA PUEDA SOBREESCRIBIRLO.
+		this.step1();
+		this.step2();
+		this.stepN();
+	}
+	
+	
+}

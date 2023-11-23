@@ -1,0 +1,19 @@
+package C3_Interpreter;
+
+import java.util.Stack;
+
+public class NumberExpresion implements Expression{
+
+	public NumberExpresion(int number) {
+		this.number = number;
+	}
+
+	@Override
+	public void interpret(Stack<Integer> stack) {
+		
+		
+	}
+	
+	private int number;
+	
+}

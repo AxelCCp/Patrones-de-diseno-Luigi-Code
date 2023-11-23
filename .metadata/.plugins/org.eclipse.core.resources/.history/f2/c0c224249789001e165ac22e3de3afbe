@@ -1,0 +1,16 @@
+package C0_Strategy;
+
+public class Enemy {
+	
+	private String name;
+	private void attack(String type) {
+		if(type.equalsIgnoreCase("warrior")) {
+			System.out.println("warrior attack!!");
+		} else if(type.equalsIgnoreCase("mago")) {
+			System.out.println("mago attack!!");
+		} else {
+			System.out.println("unarmed attack!!");
+		}
+	}
+
+}

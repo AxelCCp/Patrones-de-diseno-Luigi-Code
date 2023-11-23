@@ -1,0 +1,8 @@
+package C2_Visitor;
+
+public interface Visitor {
+
+	
+	
+	
+}

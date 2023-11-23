@@ -1,0 +1,17 @@
+package B6_Mediator_v2;
+
+public class TestMediator {
+
+	public static void main(String[] args) {
+
+		
+		Mediator mediator = new Mediator();
+		Enemy enemy1 = new Enemy("Enemy1", mediator);
+		Enemy enemy2 = new Enemy("Enemy2", mediator);
+		Enemy enemy3 = new Enemy("Enemy3", mediator);
+		
+		Companion companion = new Companion("Companion1", mediator);
+		enemy1.send();
+		
+	}
+}

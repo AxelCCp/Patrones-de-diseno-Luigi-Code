@@ -1,0 +1,11 @@
+package C3_Interpreter;
+
+public class TestInterpreter {
+	
+	public static void main(String[] args) {
+		
+		String str = "4 8 3 - +";
+		System.out.println("Result: " + new Interpreter(str).evaluate());
+	}
+
+}
